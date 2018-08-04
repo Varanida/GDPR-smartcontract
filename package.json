@@ -1,0 +1,20 @@
+{
+  "name": "rgpd-contract",
+  "version": "1.0.0",
+  "description": "Varanida poc on rgpd contract.",
+  "main": "contracts/RGPD.sol",
+  "scripts": {
+    "build": "truffle compile",
+    "deploy": "truffle migrate --network truffle",
+    "test": "truffle test ./test/*"
+  },
+  "license": "GPL-v3",
+  "directories": {
+    "contract": "contracts"
+  },
+  "author": "Varanida Team",
+  "homepage": "https://www.varanida.com/",
+  "dependencies": {
+    "web3": "^1.0.0-beta.35"
+  }
+}
